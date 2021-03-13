@@ -36,15 +36,15 @@ You will need to install "make", "gcc", "kernel headers", "kernel build essentia
 You can install them with the following command, on **Ubuntu**:
 ```bash
 sudo apt-get update
-sudo apt-get install make gcc linux-headers-$(uname -r) build-essential git
+sudo apt-get install make gcc linux-headers-$(uname -r) build-essential githttps://github.com/akash-met/rtlwifi_3.git
 ```
 If any of the packets above are not found check if your distro installs them like that. 
 
 ##### Installation
 For all distros:
 ```bash
-git clone https://github.com/lwfinger/rtw88.git
-cd rtw88
+git clone https://github.com/akash-met/rtlwifi_3.git
+cd rtlwifi_3
 make
 sudo make install
 ```
